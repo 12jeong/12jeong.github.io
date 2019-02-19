@@ -366,3 +366,12 @@ div.one-third, div.one-fourth, .copyright {
 .container > div {
   flex: 1; /*grow*/
 }
+/* img division + opacity - 2/19 */
+.container {
+  display: flex;
+  transition:all 1s ease-in-out;		
+}
+.container > div {
+  flex: 1; /*grow*/	
+}
+
