@@ -380,7 +380,6 @@ div.imgeff{
 
 div.imgeff{
 	transition:all 1s ease-in-out;
-	padding-bottom:30px;
 }
 div.imgeff:hover{
 	opacity:1;
