@@ -382,5 +382,23 @@ div.imgeff{
     -o-transition: opacity .5s ease-out;
 }
 div.imgeff:hover{
-	opacity:1;
+	opacity:0.9;
+}
+.left-column
+{
+float:left;
+width:30%;
+background-color:red;
+}
+.right-column
+{
+float:right;
+width:30%;
+background-color:green;
+}
+.center-column
+{
+margin:auto;
+width:30%;
+background-color:blue;
 }
