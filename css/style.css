@@ -361,6 +361,6 @@ div.one-third, div.one-fourth, .copyright {
 }
 .threesteps{
 	float:left; 
-	padding: 10px; 
+	padding: 0px; 
 	width: 33%;
 }
