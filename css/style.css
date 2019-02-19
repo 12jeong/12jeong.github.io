@@ -359,3 +359,9 @@ div.one-third, div.one-fourth, .copyright {
 	font-size:30px;
 }
 }
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
