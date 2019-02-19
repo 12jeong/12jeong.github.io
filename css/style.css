@@ -377,10 +377,17 @@ div.one-third, div.one-fourth, .copyright {
 div.imgeff{
 	opacity:0.7;
 }
-
 div.imgeff{
 	transition:all 1s ease-out;
 }
 div.imgeff:hover{
 	opacity:1;
+}
+/* 3rd side correction - 2/19 */
+div.one-third-final{
+	width:31.3%;
+	position:relative;
+	margin-left:2%;
+	float:right;
+	margin-bottom:1.55em;
 }
