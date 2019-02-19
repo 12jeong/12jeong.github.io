@@ -391,3 +391,7 @@ div.one-third-final{
 	float:right;
 	margin-bottom:1.55em;
 }
+div.one-third-final {
+	margin-left:0 !important;
+	clear:left;
+}
