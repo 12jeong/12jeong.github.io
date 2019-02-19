@@ -384,21 +384,6 @@ div.imgeff{
 div.imgeff:hover{
 	opacity:0.9;
 }
-.left-column
-{
-float:left;
-width:30%;
-background-color:red;
-}
-.right-column
-{
-float:right;
-width:30%;
-background-color:green;
-}
-.center-column
-{
-margin:auto;
-width:30%;
-background-color:blue;
-}
+/* 3 partition - 2/19 */
+ .third-left{float:left; width:33%;}
+ .third-right{float:right; width:33%;}
