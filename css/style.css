@@ -384,14 +384,3 @@ div.imgeff{
 div.imgeff:hover{
 	opacity:1;
 }
-/* 3rd side correction - 2/19 */
-div.one-third-final{
-	width:31.3%;
-	position:relative;
-	float:right;
-	margin-bottom:1.55em;
-}
-div.one-third-final {
-	margin-left:0 !important;
-	clear:left;
-}
