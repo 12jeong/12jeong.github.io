@@ -374,14 +374,14 @@ div.one-third, div.one-fourth, .copyright {
   flex: 1; /*grow*/	
 }
 /* img opacirt - 2/19 */
-div.img{
+div.imgeff{
 	opacity:0.7;
 }
 
-div.img{
+div.imgeff{
 	transition:all 1s ease-in-out;
 	padding-bottom:30px;
 }
-div.img:hover{
+div.imgeff:hover{
 	opacity:1;
 }
