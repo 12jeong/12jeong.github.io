@@ -368,10 +368,20 @@ div.one-third, div.one-fourth, .copyright {
 }
 /* img division + opacity - 2/19 */
 .container {
-  display: flex;
-  transition:all 1s ease-in-out;		
+  display: flex;		
 }
 .container > div {
   flex: 1; /*grow*/	
 }
+/* img opacirt - 2/19 */
+div.img{
+	opacity:0.7;
+}
 
+div.img{
+	transition:all 1s ease-in-out;
+	padding-bottom:30px;
+}
+div.img:hover{
+	opacity:1;
+}
