@@ -125,7 +125,7 @@ div.one-half {
 	width:48.5%;
 }
 div.one-third {
-	width:31.3%;
+	width:32%;
 }
 div.two-third {
 	width:65.64%;
@@ -138,7 +138,7 @@ div.three-fourth {
 }
 div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth {
 	position:relative;
-	margin-left:3%;
+	margin-left:2%;
 	float:left;
 	margin-bottom:1.55em;
 }
