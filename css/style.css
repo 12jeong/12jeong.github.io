@@ -125,7 +125,7 @@ div.one-half {
 	width:48.5%;
 }
 div.one-third {
-	width:32%;
+	width:31.3%;
 }
 div.two-third {
 	width:65.64%;
@@ -358,9 +358,4 @@ div.one-third, div.one-fourth, .copyright {
 #main-content .text-intro h2 {
 	font-size:30px;
 }
-}
-.threesteps{
-	float:left; 
-	padding: 0px; 
-	width: 30%;
 }
