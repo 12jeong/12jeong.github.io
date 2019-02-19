@@ -385,5 +385,5 @@ div.imgeff:hover{
 	opacity:0.9;
 }
 /* 3 partition - 2/19 */
- div.third-left{margin-left:2%; float:left; width:31.3%;}
- div.third-right{margin-left:2%; float:right; width:31.3%;}
+ div.third-left{margin-left:1%; float:left; width:31.3%;}
+ div.third-right{margin-left:1%; float:right; width:31.3%;}
