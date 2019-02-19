@@ -379,7 +379,7 @@ div.imgeff{
 }
 
 div.imgeff{
-	transition:all 1s ease-in-out;
+	transition:all 1s ease-out;
 }
 div.imgeff:hover{
 	opacity:1;
