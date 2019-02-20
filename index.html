@@ -59,6 +59,26 @@
         <p>Dongguk University </p>
     </div>
   </div>
+  <!--portfolio start-->
+  <div class = 'protfolio'>
+    <div class = 'container'>
+        <div class = 'heading'>
+            <h2>Github Works</h2>
+            <h3>What I have done and am doing</h3>
+        </div>
+    </div>
+    <div class = 'row' style='margin: 0 auto 30px auto;'>
+        <div id="feed" style = 'margin: 0 50px;'>
+            <script>
+                GitHubActivity.feed({
+                username: "12jeong",
+                selector: "#feed",
+                limit: 5
+                });
+            </script>
+        </div>
+    </div>
+  </div>
 </section>
 </body>
 </html>
