@@ -410,10 +410,10 @@ div.imgeff:hover{
  	font-weight:700;
  }
 /* for new section */
-.line-bottom {
+.border-styles > p{
 	border-bottom:1px solid #e5e4e4;
 	float:left;
 	width:100%;
 	padding:25px 0;
 	margin-bottom:40px;
-}
+	}
