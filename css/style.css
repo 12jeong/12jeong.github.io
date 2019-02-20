@@ -367,13 +367,6 @@ div.one-third, div.one-fourth, .copyright {
   flex: 1; /*grow*/
 }
 /* img division + opacity - 2/19 */
-.container {
-  display: flex;
-}
-.container > div {
-  flex: 1; /*grow*/
-}
-/* img opacirt - 2/19 */
 div.imgeff{
     opacity:0.7;
     transition: opacity .5s ease-out;
