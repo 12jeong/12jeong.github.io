@@ -302,7 +302,7 @@ footer .copyright a:hover {
 	height:16px;
 }
 .work, .home, .contact {
-	background:url("../images/bgwork.jpg");
+	background:url("../images/bgwork.PNG");
 	background-size:cover;
 }
 @media handheld and (max-width:480px), screen and (max-device-width:480px), screen and (max-width:767px) {
@@ -368,10 +368,10 @@ div.one-third, div.one-fourth, .copyright {
 }
 /* img division + opacity - 2/19 */
 .container {
-  display: flex;		
+  display: flex;
 }
 .container > div {
-  flex: 1; /*grow*/	
+  flex: 1; /*grow*/
 }
 /* img opacirt - 2/19 */
 div.imgeff{
