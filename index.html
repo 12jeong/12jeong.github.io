@@ -5,6 +5,13 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="shortcut icon" type="image⁄x-icon" href="images/homepage.png">
+
+<!--github activity-->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+<link rel="stylesheet" href="css/github-activity-0.1.5.min.css">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+<script type="text/javascript" src="js/github-activity-0.1.5.min.js"></script>
+
 </head>
 <body>
 <header>
@@ -46,8 +53,8 @@
     </div>
     <div class="third-left">
       <div class="colmuns">
-      <div class="img-first"><img src="images/graduate_2jeong.png" style="width:5% height:auto;" alt="" ></div>
-      <div class="one-half"><h3>Education</h3></div
+        <div class="one-half"><img src="images/graduate_2jeong.png" style="width:5% height:auto;" alt="" ></div>
+        <div class="one-half"><h3>Education</h3></div>
       </div>
       <p>서울시립대학교 통계학과 석사과정 (2018.3~)</p>
       <p>Master's course of Statistics </p>
@@ -59,8 +66,25 @@
     </div>
   </div>
 </section>
-<footer>
-  <div class="copyright"><small>Copyright. All Rights Reserved | by <a target="_blank" rel="nofollow" href="http://www.iamsupview.be">Supview</a>.</small></div>
-</footer>
+<!--portfolio start-->
+<section class = 'protfolio' id = 'ourwork'>
+  <div class = 'container'>
+      <div class = 'heading'>
+          <h2>Github Works</h2>
+          <h3>What I have done and am doing</h3>
+      </div>
+  </div>
+  <div class = 'row' style='margin: 0 auto 30px auto;'>
+      <div id="feed" style = 'margin: 0 50px;'>
+          <script>
+              GitHubActivity.feed({
+              username: "12jeong",
+              selector: "#feed",
+              limit: 5
+              });
+          </script>
+      </div>
+  </div>
+</section>
 </body>
 </html>
