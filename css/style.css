@@ -302,7 +302,7 @@ footer .copyright a:hover {
 	height:16px;
 }
 .work, .home, .contact {
-	background:url("../images/bgwork.PNG");
+	background:url("../images/bgwork.png");
 	background-size:cover;
 }
 @media handheld and (max-width:480px), screen and (max-device-width:480px), screen and (max-width:767px) {
