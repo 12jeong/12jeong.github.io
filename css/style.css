@@ -385,28 +385,8 @@ div.imgeff:hover{
  ------------------------------------------------------*/
  .protfolio{
  	background:#fff;
-	max-width:950px;
+ 	width:100%;
  	overflow:hidden;
- }
- .protfolio .container{
- 	padding-top:67px ;
- 	padding-bottom:0 ;
- }
- .protfolio .heading {
- 	padding-bottom:50px;
- }
- .protfolio .protBox{
- 	padding-top:0 ;
- 	padding-bottom:0 ;
- 	position:relative;
- }
-
- .protfolio .heading p{
- 	padding-bottom:41px;
- 	color:#242424
- }
- .protfolio h4{
- 	font-weight:700;
  }
 /* for new section */
 	.line-bottom {
