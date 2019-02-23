@@ -380,8 +380,8 @@ div.imgeff:hover{
 /* 3 partition - 2/19 */
  div.third-left{margin-left:2%; float:left; width:31.3%;}
  div.third-right{margin-left:2%; float:right; width:31.3%;}
- div.socond-left{margin-left:2%; float:left; width:48.5%;}
- div.second-right{margin-left:2%; float:right; width:48.5%;}
+ div.socond-left{margin-left:1%; float:left; width:48.5%;}
+ div.second-right{margin-left:1%; float:right; width:48.5%;}
  /*----------------------------------------------------
  	 8. Protfolio Style - 2/20
  ------------------------------------------------------*/
