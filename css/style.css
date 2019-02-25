@@ -375,15 +375,13 @@ div.imgeff{
     -o-transition: opacity .5s ease-out;
 }
 div.imgeff:hover{
-	opacity:0.9;
+	opacity:0.8;
 }
 /* 3 partition - 2/19 */
  div.third-left{margin-left:2%; float:left; width:31.3%;}
  div.third-right{margin-left:2%; float:right; width:31.3%;}
  div.socond-left{margin-left:1%; float:left; width:48.5%;}
  div.second-right{margin-left:1%; float:right; width:48.5%;}
-
- div.second-up{height:48.5%}
  /*----------------------------------------------------
  	 8. Protfolio Style - 2/20
  ------------------------------------------------------*/
@@ -407,101 +405,20 @@ div.imgeff:hover{
 		font-family:"Open Sans"
 	}
 
+/* family names */
+	.line-family {
+		border-bottom:1px solid #e5e4e4;
+		float:left;
+		width:100%;
+		padding:5px 0;
+		margin-bottom:1px;
+	}
+	.line-family h2{
+		font-size:15px;
+		color:#606060;
+		text-align:center;
+		font-family:"Open Sans"
+	}
 
-/* Team
----------------------------------*/
-.team-leader-block{
-	max-width:993px;
-	margin:0 auto;
-}
-.team-leader-box{
-	width:30.66%;
-	margin-right: 3.82979%;
-	height: 490px;
-	overflow: hidden;
-	text-align: center;
-	float: left;
-}
-.team-leader-box span{
-	margin-bottom:24px;
-	display:block;
-}
-.team-leader-box:nth-of-type(3n+0){ margin:0;}
-.team-leader{
-	width:auto;
-	height:auto;
-	position:relative;
-	border-radius:30%;
-	box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
-	margin:7px 7px 25px 7px;
-	
-}
-.team-leader-shadow{
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
-	border-radius:30%;
-	position:absolute;
-	width:100%;
-	height:100%;
-	z-index:10;
-	border-radius:30%;
-}
-.team-leader-shadow a{
-	display:block;
-	width:100%;
-	height:100%;
-}
-.team-leader:hover .team-leader-shadow{
-	box-shadow:inset  0px 0px 0px 148px rgba(17,17,17,0.80);
-}
-.team-leader:hover ul{ display:block; opacity:1}
-.team-leader img{
-	display:block;
-	border-radius:30%;
-}
-.team-leader ul{
-	display:block;
-	opacity:0;
-	padding:0;
-	margin:0;
-	list-style:none;
-	position:absolute;
-	left:0;
-	top:50%;
-	width:100%;
-	text-align:center;
-	margin-top:-14px;
-	z-index:15;
-	transition:all 0.6s ease-in-out;
-	-moz-transition:all 0.6s ease-in-out;
-	-webkit-transition:all 0.6s ease-in-out;
-}
-.team-leader ul li{
-	display:inline;
-	margin:0 11px;
-}
-.team-leader ul li a{
-	font-family: 'FontAwesome';
-	display:inline-block;
-	font-size:28px;
-	color:#fff;	
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
-}
-.team-leader ul li a:hover, .team-leader ul li a:focus{
-	text-decoration:none;
-}
-.team-leader ul li a.fa-twitter:hover{
-	color:#55acee;
-}
-.team-leader ul li a.fa-facebook:hover{
-	color:#3b5998;
-}
-.team-leader ul li a.fa-pinterest:hover{
-	color:#cb2026;
-}
-.team-leader ul li a.fa-google-plus:hover{
-	color:#dd4b39;
-}
+
+
