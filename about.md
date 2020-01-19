@@ -8,7 +8,11 @@ layout: page
 <p>If you want something to be built or just to say hi, feel free to shoot me a message</p>
 <p>haniijeong827@gmail.com</p>
 
-<h2>Skills</h2>
+<h2>
+<div class=pull-left>
+'/assets/labworks/file_2jeong.png'
+</div>
+Skills</h2>
 ![skill.image](/assets/images/skill_image.png)
 <p> R 사용에 친숙한 편이며, 데이터 과학을 위해 파이썬을 공부중입니다 </p>
 
