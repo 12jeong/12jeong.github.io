@@ -6,13 +6,12 @@ layout: page
 # About Me
 
 <p>반갑습니다! </p>
-<p>If you want something to be built or just to say hi, feel free to shoot me a message</p>
-<p> ✉ haniijeong827@gmail.com</p>
+<p>If you want something to be built or just to say hi, feel free to shoot me a message ✉ haniijeong827@gmail.com</p>
 
 <h2> 💻 Skills</h2>
 <p> R 사용에 친숙한 편이며, 데이터 과학을 위해 파이썬을 공부중입니다 </p>
 
-<h2> 👩‍ Presentation</h2>
+<h2> 🎤 Presentation</h2>
 <ul class="skill-list">
 	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회, 2019년 11월, 서울시립대학교
 	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  </li>
