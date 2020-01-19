@@ -1,6 +1,7 @@
 ---
 title: Links
 layout: page
+categories: [ links ]
 ---
 <h3>R</h3>
 
