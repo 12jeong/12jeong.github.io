@@ -6,6 +6,16 @@
             </li>
         {% endif %}
 
+        {% if site.now == true %}
+            {% if page.title == "Home" %}
+               {% if page.title != "Links" %}
+                    <li class="item">
+                        <a class="link" href="{{ site.url }}/links">Links</a>
+                    </li>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
