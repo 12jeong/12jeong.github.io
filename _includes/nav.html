@@ -37,9 +37,14 @@
             </li>
         {% endif %}
 
-        <li class="item">
-        <a class="link" href="{{ site.url }}/links"> Links </a>
-        </li>
-
+        {% if site.links == true %}
+                   {% if page.title == "Home" %}
+                      {% if page.title != "Links" %}
+                           <li class="item">
+                               <a class="link" href="{{ site.url }}/lins">Links</a>
+                           </li>
+                       {% endif %}
+                   {% endif %}
+        {% endif %}
     </ul>
 </nav>
