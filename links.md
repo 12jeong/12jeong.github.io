@@ -1,6 +1,6 @@
 ---
 title: Links
 layout: page
-category: links
+permalink: /links/
 ---
 <h3>R</h3>
