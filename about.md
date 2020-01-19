@@ -7,7 +7,7 @@ layout: page
 <p></p>
 
 <h2>Skills</h2>
-![skill.image1](/assets/images/R_2jeong.PNG)|![skill.image2](/assets/images/python_2jeong.PNG)|![skill.image3](/asses/images/html_2jeong.png)
+![skill.image](/assets/images/R_2jeong.PNG){: width="100" height="100"}|![skill.image](/assets/images/python_2jeong.PNG){: width="100" height="100"}|![skill.image](/asses/images/html_2jeong.png){: width="100" height="100"}
 --- | --- | --- |
 
 
