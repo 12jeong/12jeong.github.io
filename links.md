@@ -1,6 +1,6 @@
 ---
 layout: page
-title: links
+title: Links
 ---
 
 <h3>R</h3>
