@@ -13,15 +13,19 @@ layout: page
 <h2>Education</h2>
 <ul class="skill-list">
 	<li> 서울시립대학교 통계학 석사과정, 2018.3~ </li>
-	<li> 동국대학교 통계학 (경제학 복수전공) 2014.3~2018.2 </li>
+	<li> 동국대학교학교 통계학 전공 (경제학 복수전공) 2014.3~2018.2 </li>
 </ul>
 
 <h2>Presentation</h2>
-	<li> Application of regularization method to the nonstationary GEV distribution. 2019 추계 통계학회, 서울,
+<ul class="skill-list">
+	<li> Application of regularization method to the nonstationary GEV distribution. 2019 통계학회 추계학술논문발표회, 서울시립대학교,
 	<a href = 'assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  </li>
+</ul>
 
 <h2>Honors and Awards</h2>
+<ul class="skill-list">
 	<li> 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회, 2019 9월 <a href = 'assets/labworks/abstract_regularization_GEV.pdf'> abstract </a></li>
+</ul>
 
 
 <h2>Projects</h2>
