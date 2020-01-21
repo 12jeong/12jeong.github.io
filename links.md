@@ -52,5 +52,6 @@ layout: page
     </div>
 
   <h3> Lab family </h3>
-  [![MSJ](/assets/images/fam_moon.PNG "문상준"){: width="" height=""}](https://monster-moon.github.io/)
-  [![HSC](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
+  [![MSJ alt >](/assets/images/fam_moon.PNG "문상준"){: width="" height=""}](https://monster-moon.github.io/)
+  [![HSC alt <](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
+  [![HSC alt ><](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
