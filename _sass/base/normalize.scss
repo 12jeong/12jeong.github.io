@@ -429,6 +429,7 @@ textarea {
 
 /** 20200121 **/
 /* family names */
+<<<<<<< HEAD
 div.columns {
 	width:100%;
 }
@@ -452,3 +453,31 @@ div.one-third {
 		text-align:center;
 		font-family:"Open Sans"
 	}
+=======
+.parent{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.first {
+    border: 1px solid red;
+    float: left;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.second{
+    border: 1px solid green;
+    float: left;
+    margin-left: 5%;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.third{
+    border: 1px solid blue;
+    float: right;
+    width:30%;
+    box-sizing: border-box;
+}
+>>>>>>> 1f0ccd33e91a43ebbe28af7f39de5dc3968f9829
