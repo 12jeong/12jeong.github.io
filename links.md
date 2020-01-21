@@ -34,21 +34,20 @@ layout: page
 
   <h3> Lab family </h3>
   <div class="colmuns">
-  <br clear=left>
         <div class="one-third">
-          <img src="/assets/images/fam_moon.PNG"  alt="">
+           <a href="https://monster-moon.github.io/"> <img src="/assets/images/fam_moon.PNG"  alt="">
           <div class = "line-family"><h2>문상준</h2>
           </div>
         </div>
 
         <div class="one-third">
-          <img src="/assets/images/fam_hong.PNG" alt="">
+          <a href="https://chulhongsung.github.io/"><img src="/assets/images/fam_hong.PNG" alt="">
           <div class = "line-family"><h2>홍성철</h2>
           </div>
         </div>
 
         <div class="one-third">
-          <img src="/assets/images/fam_hong.PNG" alt="">
+          <a href="https://chulhongsung.github.io/"><img src="/assets/images/fam_hong.PNG" alt="">
           <div class = "line-family"><h2>홍성철</h2>
           </div>
         </div>
