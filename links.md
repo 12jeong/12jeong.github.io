@@ -32,7 +32,7 @@ layout: page
   <li> <a href = 'http://www.tablesgenerator.com/'> LaTeX Tables Generator </a>  </li>
   </ul>
 
-<h3> Lab family </h3>
-  [![MSJ alt >](/assets/images/fam_moon.PNG "문상준"){: width="" height=""}](https://monster-moon.github.io/)
-  [![HSC alt <](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
-  [![HSC alt ><](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
+<h3> Lab Family </h3>
+  [![JJJ alt <](/assets/images/fam_hong.PNG "Jong-June Jeon")](https://chulhongsung.github.io/)
+  [![MSJ alt ><](/assets/images/fam_moon.PNG "SangJun Moon")](https://monster-moon.github.io/)
+  [![HSC alt >](/assets/images/fam_hong.PNG "Sung-Chul Hong")](https://chulhongsung.github.io/)
