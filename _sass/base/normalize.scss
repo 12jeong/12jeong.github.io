@@ -5,6 +5,13 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 
+ @font-face {
+     font-family: "D2Coding";
+     src: url("/assets/fonts/D2Coding-Ver1.3.2-20180524.ttf") format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
