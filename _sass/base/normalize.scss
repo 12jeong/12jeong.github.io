@@ -429,26 +429,18 @@ textarea {
 
 /** 20200121 **/
 /* family names */
-div.columns {
-	width:100%;
+img[alt$=">"] {
+  float: right;
 }
 
-div.one-third {
-	width:31.3%;
-  position:relative;
-  margin-left:2%;
-  float:left;
+img[alt$="<"] {
+  float: left;
 }
-	.line-family {
-		border-bottom:1px solid #e5e4e4;
-		float:left;
-		width:270px;
-		padding:5px 0;
-		margin-bottom:1px;
-	}
-	.line-family h2{
-		font-size:15px;
-		color:#606060;
-		text-align:center;
-		font-family:"Open Sans"
-	}
+
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
+}
