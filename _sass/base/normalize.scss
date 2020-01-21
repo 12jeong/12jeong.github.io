@@ -435,8 +435,10 @@ div.columns {
 
 div.one-third {
 	width:31.3%;
+  position:relative;
+  margin-left:2%;
+  float:left;
 }
-
 	.line-family {
 		border-bottom:1px solid #e5e4e4;
 		float:left;
