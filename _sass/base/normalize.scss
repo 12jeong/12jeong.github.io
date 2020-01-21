@@ -429,7 +429,6 @@ textarea {
 
 /** 20200121 **/
 /* family names */
-<<<<<<< HEAD
 img[alt$=">"] {
   float: right;
 }
@@ -445,57 +444,5 @@ img[alt$="><"] {
   margin: auto;
   float: none!important;
 }
-=======
-<<<<<<< HEAD
-div.columns {
-	width:100%;
-}
 
-div.one-third {
-	width:31.3%;
-  position:relative;
-  margin-left:2%;
-  float:left;
-}
-	.line-family {
-		border-bottom:1px solid #e5e4e4;
-		float:left;
-		width:270px;
-		padding:5px 0;
-		margin-bottom:1px;
-	}
-	.line-family h2{
-		font-size:15px;
-		color:#606060;
-		text-align:center;
-		font-family:"Open Sans"
-	}
-=======
-.parent{
-    width: 90%;
-    margin: 10px auto;
-}
-
-.first {
-    border: 1px solid red;
-    float: left;
-    width:30%;
-    box-sizing: border-box;
-}
-
-.second{
-    border: 1px solid green;
-    float: left;
-    margin-left: 5%;
-    width:30%;
-    box-sizing: border-box;
-}
-
-.third{
-    border: 1px solid blue;
-    float: right;
-    width:30%;
-    box-sizing: border-box;
-}
->>>>>>> 1f0ccd33e91a43ebbe28af7f39de5dc3968f9829
->>>>>>> 4906913e125970788f04f354e43108240e26709d
+/* family names */
