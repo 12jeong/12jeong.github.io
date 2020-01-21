@@ -32,26 +32,7 @@ layout: page
   <li> <a href = 'http://www.tablesgenerator.com/'> LaTeX Tables Generator </a>  </li>
   </ul>
 
-
-  <h3> Lab family </h3>
-  <div class="parent">
-        <div class="first">
-        <a href="https://monster-moon.github.io/"> <img src="/assets/images/fam_moon.PNG"  alt=""  width=100px height=100px >
-        문상준
-        </div>
-
-        <div class="second">
-        <a href="https://chulhongsung.github.io/"><img src="/assets/images/fam_hong.PNG" alt="" width=100px height=100px>      
-        홍성철
-        </div>
-
-        <div class="third">
-        <a href="https://chulhongsung.github.io/"><img src="/assets/images/fam_hong.PNG" alt="" width=100px height=100px>  
-        조연선
-        </div>
-    </div>
-
-  <h3> Lab family </h3>
+<h3> Lab family </h3>
   [![MSJ alt >](/assets/images/fam_moon.PNG "문상준"){: width="" height=""}](https://monster-moon.github.io/)
   [![HSC alt <](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
   [![HSC alt ><](/assets/images/fam_hong.PNG "홍성철"){: width="" height=""}](https://chulhongsung.github.io/)
