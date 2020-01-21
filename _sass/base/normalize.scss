@@ -429,18 +429,29 @@ textarea {
 
 /** 20200121 **/
 /* family names */
-img[alt$=">"] {
-  float: right;
+.parent{
+    width: 90%;
+    margin: 10px auto;
 }
 
-img[alt$="<"] {
-  float: left;
+.first {
+    border: 1px solid red;
+    float: left;
+    width:30%;
+    box-sizing: border-box;
 }
 
-img[alt$="><"] {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  float: none!important;
+.second{
+    border: 1px solid green;
+    float: left;
+    margin-left: 5%;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.third{
+    border: 1px solid blue;
+    float: right;
+    width:30%;
+    box-sizing: border-box;
 }
