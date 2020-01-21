@@ -33,18 +33,27 @@ layout: page
   </ul>
 
   <h3> Lab family </h3>
-  <div style="border: 1px solid gold; float: left; padding: 10px; width: 33%;">
-  <a href="https://monster-moon.github.io/"><img src="/assets/images/fam_moon.PNG" width=20px height=20px alt="" align="right"></a>
-  문상준
-  </div>
-  <div style="border: 1px solid red; float: left; padding: 10px; width: 33%;">
-  <a href="https://monster-moon.github.io/"><img src="/assets/images/fam_hong.PNG" width=20px height=20px alt="" align="right"></a>
-  홍성철
-  </div>
-  <div style="border: 1px solid red; float: left; padding: 10px; width: 33%;">
-  <a href="https://monster-moon.github.io/"><img src="/assets/images/fam_hong.PNG" width=20px height=20px alt="" align="right"></a>
-  홍성철
-  </div>
+  <div class="colmuns">
+  <br clear=left>
+        <div class="one-third">
+          <img src="/assets/images/fam_moon.PNG"  alt="">
+          <div class = "line-family"><h2>문상준</h2>
+          </div>
+        </div>
 
+        <div class="one-third">
+          <img src="/assets/images/fam_hong.PNG" alt="">
+          <div class = "line-family"><h2>홍성철</h2>
+          </div>
+        </div>
+
+        <div class="one-third">
+          <img src="/assets/images/fam_hong.PNG" alt="">
+          <div class = "line-family"><h2>홍성철</h2>
+          </div>
+        </div>
+</div>
+
+&nbsp
   [![MSJ](/assets/images/fam_moon.PNG "문상준")](https://monster-moon.github.io/)
   [![HSC](/assets/images/fam_hong.PNG "홍성철")](https://chulhongsung.github.io/)

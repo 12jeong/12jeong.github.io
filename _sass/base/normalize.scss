@@ -424,3 +424,29 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+
+
+/** 20200121 **/
+/* family names */
+div.columns {
+	width:100%;
+}
+
+div.one-third {
+	width:31.3%;
+}
+
+	.line-family {
+		border-bottom:1px solid #e5e4e4;
+		float:left;
+		width:270px;
+		padding:5px 0;
+		margin-bottom:1px;
+	}
+	.line-family h2{
+		font-size:15px;
+		color:#606060;
+		text-align:center;
+		font-family:"Open Sans"
+	}
