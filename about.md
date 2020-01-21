@@ -14,13 +14,13 @@ layout: page
 
 <h2> 🎤‍ Presentation</h2>
 <ul class="skill-list">
-	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회, 2019년 11월, 서울시립대학교
+	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회,2019.11 
 	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  </li>
 </ul>
 
 <h2> 🏆 Honors and Awards</h2>
 <ul class="skill-list">
-	<li> SG 대학원생 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회, 2019 11월 <a href = '/assets/labworks/abstract_regularization_GEV.pdf'> abstract </a></li>
+	<li> SG 대학원생 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회,2019.11 <a href = '/assets/labworks/abstract_regularization_GEV.pdf'> abstract </a></li>
 </ul>
 
 <h2> 🎓 Education</h2>
