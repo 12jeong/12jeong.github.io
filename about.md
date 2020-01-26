@@ -40,11 +40,11 @@ layout: page
 
 <h2> 📁 Other Resources </h2>
 <ul class="skill-list">
-	<li> 12/19/2019, I-Jeong Han, Spatial analysis of extreme value using a smoothing spline regression <a href = 'assets/labworks/academic_thesis.pdf'>slide</a>  </li>
-	<li> 12/12/2018, I-Jeong Han, Thin plate splines <a href = 'assets/labworks/Thin_plate_splines.pdf'>slide</a>  </li>
-	<li> 05/27/2019, I-Jeong Han, Bayesian Deep Learning for recommender system <a href = 'assets/labworks/BNN_review3.pdf'>slide</a>  </li>
-	<li> 07/30/2019, I-Jeong Han, How to collaborate on Github <a href = 'assets/labworks/github_collaborate.pdf'>slide</a>  </li>
-	<li> 09/20/2018, I-Jeong Han, An Intro to Github Desktop beginner <a href = 'assets/labworks/github_desktop.pdf'>slide</a>  </li>
+	<li> 12/19/2019, I-Jeong Han, Spatial analysis of extreme value using a smoothing spline regression <a href = '/assets/labworks/academic_thesis.pdf'>slide</a>  </li>
+	<li> 12/12/2018, I-Jeong Han, Thin plate splines <a href = '/assets/labworks/Thin_plate_splines.pdf'>slide</a>  </li>
+	<li> 05/27/2019, I-Jeong Han, Bayesian Deep Learning for recommender system <a href = '/assets/labworks/BNN_review3.pdf'>slide</a>  </li>
+	<li> 07/30/2019, I-Jeong Han, How to collaborate on Github <a href = '/assets/labworks/github_collaborate.pdf'>slide</a>  </li>
+	<li> 09/20/2018, I-Jeong Han, An Intro to Github Desktop beginner <a href = '/assets/labworks/github_desktop.pdf'>slide</a>  </li>
 </ul>
 
 <!-- <h2>Projects</h2>
