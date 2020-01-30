@@ -24,12 +24,14 @@ layout: page
 <h2> 🎤‍ Presentation</h2>
 <ul class="skill-list">
 	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회,2019.11
-	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  </li>
+	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  
+	<a href = '/assets/image/stu_2019.jpg'> 사진 </a> 
+	</li>
 </ul>
 
 <h2> 🏆 Honors and Awards</h2>
 <ul class="skill-list">
-	<li> SG 대학원생 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회,2019.11 <a href = '/assets/labworks/abstract_regularization_GEV.pdf'> abstract </a></li>
+	<li> SG 대학원생 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회,2019.11 <a href = '/assets/labworks/abstract_regularization_GEV.pdf'> 초록 </a></li>
 </ul>
 
 <h2> 🎓 Education</h2>
@@ -40,11 +42,17 @@ layout: page
 
 <h2> 📁 Other Resources </h2>
 <ul class="skill-list">
-	<li> 12/19/2019, I-Jeong Han, Spatial analysis of extreme value using a smoothing spline regression <a href = '/assets/labworks/academic_thesis.pdf'>slide</a>  </li>
-	<li> 12/12/2018, I-Jeong Han, Thin plate splines <a href = '/assets/labworks/Thin_plate_splines.pdf'>slide</a>  </li>
-	<li> 05/27/2019, I-Jeong Han, Bayesian Deep Learning for recommender system <a href = '/assets/labworks/BNN_review3.pdf'>slide</a>  </li>
-	<li> 07/30/2019, I-Jeong Han, How to collaborate on Github <a href = '/assets/labworks/github_collaborate.pdf'>slide</a>  </li>
-	<li> 09/20/2018, I-Jeong Han, An Intro to Github Desktop beginner <a href = '/assets/labworks/github_desktop.pdf'>slide</a>  </li>
+  <li> 12/13/2018, 시내버스 음료반입 금지에 따른 쓰레기통 위치 선정 <a href = '/assets/labworks/NDoB_최종.pdf'> 발표자료 </a>   <a href = 'https://github.com/12jeong/No-drinks-on-the-bus/blob/master/README.md'> 깃허브 </a> </li>
+
+	<li> 12/19/2019, Spatial analysis of extreme value using a smoothing spline regression <a href = '/assets/labworks/academic_thesis.pdf'> 발표자료 </a>  </li>
+
+	<li> 12/12/2018, Thin plate splines <a href = '/assets/labworks/Thin_plate_splines.pdf'> 문서 </a>  </li>
+
+	<li> 05/27/2019, Bayesian Deep Learning for recommender system <a href = '/assets/labworks/BNN_review3.pdf'> 발표자료 </a>  </li>
+
+	<li> 07/30/2019, 깃허브에서 협업하는 방법 <a href = '/assets/labworks/github_collaborate.pdf'>문서</a>  </li>
+
+	<li> 09/20/2018, 깃허브 데스크탑 설정 방법<a href = '/assets/labworks/github_desktop.pdf'>문서</a>  </li>
 </ul>
 
 <!-- <h2>Projects</h2>
