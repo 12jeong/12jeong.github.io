@@ -25,7 +25,7 @@ layout: page
 <ul class="skill-list">
 	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회,2019.11
 	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  
-	<a href = '/assets/image/stu_2019.jpg'> 사진 </a> 
+	<a href = '/assets/images/stu_2019.jpg'> 사진 </a> 
 	</li>
 </ul>
 
@@ -52,7 +52,7 @@ layout: page
 
 	<li> 07/30/2019, 깃허브에서 협업하는 방법 <a href = '/assets/labworks/github_collaborate.pdf'>문서</a>  </li>
 
-	<li> 09/20/2018, 깃허브 데스크탑 설정 방법<a href = '/assets/labworks/github_desktop.pdf'>문서</a>  </li>
+	<li> 09/20/2018, 깃허브 데스크탑 설정 방법 <a href = '/assets/labworks/github_desktop.pdf'>문서</a>  </li>
 </ul>
 
 <!-- <h2>Projects</h2>
