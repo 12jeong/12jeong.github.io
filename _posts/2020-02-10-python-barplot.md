@@ -1,13 +1,12 @@
 ---
-title: "막대 그래프 (Bar Chart) 그리는 방법 - pandas, matplotlib, seaborn"
+title: "막대 그래프(Bar Chart) 그리는 방법-pandas, matplotlib, seaborn, ggplot2"
 layout: post
 date: 2020-02-10
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
-star: true
+- Python
+- visualization
 category: blog
 author: 12#
 description:
@@ -27,15 +26,15 @@ import random
 
 
 ```python
-np.random.seed(seed=100)
+np.random.seed(seed=1)
 group_list = ['A','B','C','D']
-n_size = 15
+n_size = 20
 group = [random.choice(group_list) for i in range(n_size)]
-xval = np.random.poisson(lam=5,size=n_size)
+xval = np.random.poisson(lam=10,size=n_size)
 label = np.random.binomial(n=1, p=0.5, size=n_size)
 label = list(map(str, label))
 df = pd.DataFrame({'xval':xval, 'group':group, 'label':label})
-df
+df.head()
 ```
 
 
@@ -67,109 +66,37 @@ df
   <tbody>
     <tr>
       <td>0</td>
-      <td>4</td>
-      <td>C</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>4</td>
-      <td>D</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>3</td>
-      <td>C</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>5</td>
-      <td>A</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>6</td>
-      <td>A</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>2</td>
-      <td>A</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>4</td>
-      <td>A</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>8</td>
-      <td>D</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>4</td>
-      <td>B</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <td>9</td>
-      <td>7</td>
       <td>A</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>2</td>
-      <td>A</td>
       <td>1</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>7</td>
-      <td>A</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>3</td>
-      <td>D</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>13</td>
       <td>6</td>
+      <td>B</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>7</td>
+      <td>A</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9</td>
       <td>A</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>14</td>
-      <td>5</td>
-      <td>B</td>
-      <td>1</td>
+      <td>4</td>
+      <td>9</td>
+      <td>D</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
 </div>
-
-
-
-
-```python
-label
-```
-
-
-
-
-    '[0 1 1 0 1 1 0 0 0 0 1 0 1 0 1]'
 
 
 
@@ -188,10 +115,10 @@ df_by_group
 
 
     group
-    A    10
-    B    29
-    C    24
-    D     7
+    A    50
+    B    27
+    C    31
+    D    70
     Name: xval, dtype: int32
 
 
@@ -204,16 +131,81 @@ df_by_group_label
 
 
 
-    group  label
-    A      0         7
-           1         3
-    B      0        22
-           1         7
-    C      0        11
-           1        13
-    D      0         5
-           1         2
-    Name: xval, dtype: int32
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>group</th>
+      <th>label</th>
+      <th>xval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>A</td>
+      <td>0</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>A</td>
+      <td>1</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>B</td>
+      <td>0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>B</td>
+      <td>1</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>C</td>
+      <td>0</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>C</td>
+      <td>1</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>D</td>
+      <td>0</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>D</td>
+      <td>1</td>
+      <td>28</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
@@ -234,12 +226,12 @@ df_by_group.plot.bar(x='group',y='xval',rot=0)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174fa7190b8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174fef8dd30>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_11_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_10_1.png)
 
 
 
@@ -250,12 +242,12 @@ df_by_group.plot.barh(x='group',y='xval',rot=0)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174fa731ba8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174ff441f98>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_12_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_11_1.png)
 
 
 ### 두 개의 그룹이 있을 경우
@@ -301,23 +293,23 @@ df_pivot
   <tbody>
     <tr>
       <td>A</td>
-      <td>NaN</td>
-      <td>9.0</td>
+      <td>26</td>
+      <td>24</td>
     </tr>
     <tr>
       <td>B</td>
-      <td>4.0</td>
-      <td>6.0</td>
+      <td>6</td>
+      <td>21</td>
     </tr>
     <tr>
       <td>C</td>
-      <td>27.0</td>
-      <td>5.0</td>
+      <td>12</td>
+      <td>19</td>
     </tr>
     <tr>
       <td>D</td>
-      <td>14.0</td>
-      <td>5.0</td>
+      <td>42</td>
+      <td>28</td>
     </tr>
   </tbody>
 </table>
@@ -333,12 +325,12 @@ df_pivot.plot.bar(rot=0)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174f8f884a8>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174ff49ab38>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_15_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_14_1.png)
 
 
 
@@ -349,12 +341,12 @@ df_pivot.plot.bar(stacked=True, rot=0)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174f8f3b7f0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174fefb0400>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_16_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_15_1.png)
 
 
 ## 2. matplotlib
@@ -377,10 +369,10 @@ df_by_group
 
 
     group
-    A    10
-    B    29
-    C    24
-    D     7
+    A    50
+    B    27
+    C    31
+    D    70
     Name: xval, dtype: int32
 
 
@@ -396,16 +388,16 @@ plt.xticks(index, label, fontsize=15) # label 이름 넣기
 
 
 
-    ([<matplotlib.axis.XTick at 0x174faa462b0>,
-      <matplotlib.axis.XTick at 0x174ee5e5b00>,
-      <matplotlib.axis.XTick at 0x174ee5e5828>,
-      <matplotlib.axis.XTick at 0x174faa6a160>],
+    ([<matplotlib.axis.XTick at 0x174ffa65b70>,
+      <matplotlib.axis.XTick at 0x174ffa7c978>,
+      <matplotlib.axis.XTick at 0x174ffa7cef0>,
+      <matplotlib.axis.XTick at 0x174fd36d048>],
      <a list of 4 Text xticklabel objects>)
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_21_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_20_1.png)
 
 
 
@@ -417,16 +409,16 @@ plt.yticks(index, label, fontsize=15)
 
 
 
-    ([<matplotlib.axis.YTick at 0x174fa921940>,
-      <matplotlib.axis.YTick at 0x174fa9d54e0>,
-      <matplotlib.axis.YTick at 0x174fa9bf5f8>,
-      <matplotlib.axis.YTick at 0x174fa9f7c50>],
+    ([<matplotlib.axis.YTick at 0x174fe7f0860>,
+      <matplotlib.axis.YTick at 0x174fd4a5be0>,
+      <matplotlib.axis.YTick at 0x174fe7b4390>,
+      <matplotlib.axis.YTick at 0x174fd5a95c0>],
      <a list of 4 Text yticklabel objects>)
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_22_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_21_1.png)
 
 
 ### 두 개의 그룹이 있을 경우
@@ -435,8 +427,8 @@ plt.yticks(index, label, fontsize=15)
 
 
 ```python
-df_by_group_by0 = df[df['label']==0].groupby(['group'])['xval'].sum()
-df_by_group_by1 = df[df['label']==1].groupby(['group'])['xval'].sum()
+df_by_group_by0 = df[df['label']=='0'].groupby(['group'])['xval'].sum()
+df_by_group_by1 = df[df['label']=='1'].groupby(['group'])['xval'].sum()
 ```
 
 
@@ -458,12 +450,12 @@ plt.legend((p1[0], p2[0]), ('0', '1'), fontsize=15)
 
 
 
-    <matplotlib.legend.Legend at 0x174f8fdbb38>
+    <matplotlib.legend.Legend at 0x174fd5a38d0>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_26_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_25_1.png)
 
 
 
@@ -479,12 +471,12 @@ plt.legend((p1[0], p2[0]), ('0', '1'), fontsize=15)
 
 
 
-    <matplotlib.legend.Legend at 0x174f8ee0b00>
+    <matplotlib.legend.Legend at 0x174ff711f60>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_27_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_26_1.png)
 
 
 * 문자열 리스트 정렬하기
@@ -531,12 +523,12 @@ sns.barplot(x='group', y='xval', data=df_by_group)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174f8b59c88>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174fe8b09e8>
 
 
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_34_1.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_33_1.png)
 
 
 ### 두 개의 그룹이 있을 경우
@@ -544,34 +536,38 @@ sns.barplot(x='group', y='xval', data=df_by_group)
 
 ```python
 df_by_group_label = df.groupby(['group','label'])['xval'].sum().reset_index()
-sns.barplot(x='group', y='xval', hue='label',data=df_by_group)
+sns.barplot(x='group', y='xval', hue='label',data=df_by_group_label )
 ```
 
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x174f8c2da20>
+    <matplotlib.axes._subplots.AxesSubplot at 0x174fe7cb048>
+
+
+
+
+![png](/assets/posts/2020-02-10-python-barplot/output_35_1.png)
+
+
+
+```python
+df_by_group_by0 = df[df['label']=='0'].groupby(['group'])['xval'].sum().reset_index()
+df_by_group_by1 = df[df['label']=='1'].groupby(['group'])['xval'].sum().reset_index()
+
+sns.barplot(x='group', y='xval', data=df_by_group,color="red",alpha=0.5)
+sns.barplot(x='group', y='xval', data=df_by_group_by0 ,color="blue",alpha=0.5)
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x174ffd2fc88>
 
 
 
 
 ![png](/assets/posts/2020-02-10-python-barplot/output_36_1.png)
-
-
-
-```python
-sns.barplot(x='group', y='xval', hue='label',data=df_by_group, dodge=False)
-```
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x174f8cd5860>
-
-
-
-
-![png](/assets/posts/2020-02-10-python-barplot/output_37_1.png)
 
 
 ## 4. 파이썬에서 R의 'ggplot2' 사용하기
@@ -588,13 +584,13 @@ p9.ggplot(data=df,mapping=p9.aes(x='group',y='xval'))+p9.geom_bar(stat='identity
 ```
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_40_0.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_39_0.png)
 
 
 
 
 
-    <ggplot: (100123526008)>
+    <ggplot: (-9223371936731132493)>
 
 
 
@@ -604,13 +600,13 @@ p9.ggplot(data=df,mapping=p9.aes(x='group',y='xval',fill='label'))+p9.geom_bar(s
 ```
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_41_0.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_40_0.png)
 
 
 
 
 
-    <ggplot: (-9223371936731138395)>
+    <ggplot: (100125509489)>
 
 
 
@@ -620,13 +616,13 @@ p9.ggplot(data=df,mapping=p9.aes(x='group',y='xval',fill='label'))+p9.geom_bar(s
 ```
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_42_0.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_41_0.png)
 
 
 
 
 
-    <ggplot: (-9223371936731138381)>
+    <ggplot: (100123695585)>
 
 
 
@@ -636,10 +632,10 @@ p9.ggplot(data=df,mapping=p9.aes(x='group',y='xval',fill='label'))+p9.geom_bar(s
 ```
 
 
-![png](/assets/posts/2020-02-10-python-barplot/output_43_0.png)
+![png](/assets/posts/2020-02-10-python-barplot/output_42_0.png)
 
 
 
 
 
-    <ggplot: (-9223371936731093325)>
+    <ggplot: (100124825846)>
