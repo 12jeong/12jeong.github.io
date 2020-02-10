@@ -443,3 +443,17 @@ img[alt$="><"] {
   margin: auto;
   float: none!important;
 }
+
+/** 20200130 **/
+::selection {
+    color: #e00966;
+    text-shadow: none;
+}
+::-moz-selection {
+    color: #e00966;
+    text-shadow: none;
+}
+::-webkit-selection {
+    color:#e00966;
+    text-shadow: none;
+}
