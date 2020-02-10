@@ -17,7 +17,6 @@ layout: page
   <li> <a href = 'http://adv-r.had.co.nz/Environments.html' > Advanced R </a>  </li>
   <li> <a href = 'https://www.stat.berkeley.edu/~s133/dates.html' > Dates and Times in R </a>  </li>
   <li> <a href = '/assets/labworks/data-transformation.pdf' > Data Transformation with dplyr : CHEAT SHEET  </a>  </li>
-  </ul>
   <li> <a href = 'https://rfriend.tistory.com/' > R, Python 분석과 프로그래밍의 친구 (by R Friend) </a>  </li>
   </ul>
 
@@ -25,7 +24,6 @@ layout: page
   <ul>
   <li> <a href = 'https://pandas.pydata.org/pandas-docs/stable/pandas.pdf' > pandas: powerful Python data analysis toolkit </a>  </li>
   <li> <a href = 'https://docs.scipy.org/doc/scipy/reference/tutorial/' > SciPy Tutorial </a>  </li>
-  </ul>
   <li> <a href = 'https://pandas.pydata.org/pandas-docs/version/0.23/visualization.html' > Visualization(pandas documentation) </a>  </li>
   </ul>
 
