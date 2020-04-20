@@ -25,6 +25,8 @@ layout: page
   <li> <a href = 'https://pandas.pydata.org/pandas-docs/stable/pandas.pdf' > pandas: powerful Python data analysis toolkit </a>  </li>
   <li> <a href = 'https://docs.scipy.org/doc/scipy/reference/tutorial/' > SciPy Tutorial </a>  </li>
   <li> <a href = 'https://pandas.pydata.org/pandas-docs/version/0.23/visualization.html' > Visualization(pandas documentation) </a>  </li>
+  <li> <a href = 'https://docs.python.org/ko/3/tutorial/index.html' > 파이썬 자습서 </a> </li>
+  
   </ul>
 
 <h3> Latex </h3>
