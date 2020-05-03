@@ -25,7 +25,6 @@ layout: page
 <ul class="skill-list">
 	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회,2019.11
 	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  
-	<a href = '/assets/images/stu_2019.jpg'> 사진 </a> 
 	</li>
 </ul>
 
@@ -44,7 +43,8 @@ layout: page
 <ul class="skill-list">
   <li> 12/13/2018, 시내버스 음료반입 금지에 따른 쓰레기통 위치 선정 <a href = '/assets/labworks/NDoB_최종.pdf'> 발표자료 </a>   <a href = 'https://github.com/12jeong/No-drinks-on-the-bus/blob/master/README.md'> 깃허브 </a> </li>
 
-	<li> 12/19/2019, Spatial analysis of extreme value using a smoothing spline regression <a href = '/assets/labworks/academic_thesis.pdf'> 발표자료 </a>  </li>
+	<li> 12/19/2019, 평활 스플라인 회귀모형을 이용한 극단값의
+공간적 분석 <a href = '/assets/labworks/academic_thesis.pdf'> 발표자료 </a>  </li>
 
 	<li> 12/12/2018, Thin plate splines <a href = '/assets/labworks/Thin_plate_splines.pdf'> 문서 </a>  </li>
 
