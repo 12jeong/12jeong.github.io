@@ -26,7 +26,7 @@ layout: page
   <li> <a href = 'https://docs.scipy.org/doc/scipy/reference/tutorial/' > SciPy Tutorial </a>  </li>
   <li> <a href = 'https://pandas.pydata.org/pandas-docs/version/0.23/visualization.html' > Visualization(pandas documentation) </a>  </li>
   <li> <a href = 'https://docs.python.org/ko/3/tutorial/index.html' > 파이썬 자습서 </a> </li>
-  
+
   </ul>
 
 <h3> Latex </h3>
@@ -37,9 +37,10 @@ layout: page
   </ul>
 
 <h3> 1chon </h3>
-  [![HSC alt >](/assets/images/fam_hong.PNG "Sung-Chul Hong")](https://chulhongsung.github.io/)
-  [![JJJ alt <](/assets/images/fam_jeon.PNG "Jong-June Jeon")](http://ranking.uos.ac.kr/)
-  [![MSJ alt ><](/assets/images/fam_moon.PNG "SangJun Moon")](https://monster-moon.github.io/)
-  [![PHW alt <](/assets/images/fam_park.PNG "HyeWon Park")](https://sdtrd011.github.io/)
+  [![HSC alt >](/assets/images/fam_hong.PNG "Hong SungChul ")](https://chulhongsung.github.io/)
+  [![JJJ alt <](/assets/images/fam_jeon.PNG "Jeon JongJune ")](http://ranking.uos.ac.kr/)
+  [![MSJ alt ><](/assets/images/fam_moon.PNG "Moon SangJun")](https://monster-moon.github.io/)
+  [![PHW alt <](/assets/images/fam_park.PNG "Park HyeWon ")](https://sdtrd011.github.io/)
+  [![ASH alt <](/assets/images/fam_an.PNG "An SeungHwan")](https://https://an-seunghwan.github.io/)
 
   &nbsp;
