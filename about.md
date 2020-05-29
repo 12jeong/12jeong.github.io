@@ -3,10 +3,10 @@ title: About
 layout: page
 ---
 <!-- ![Profile Image]({{ site.url }}/{{ site.picture }}) -->
-# About Me
+# 소개
 
 <p>반갑습니다! 열심히 배워가는 중입니다 </p>
-<p>If you want something to be built or just to say hi, feel free to shoot me a message  ✉ haniijeong827@gmail.com</p>
+<p>If you want something to be built or just to say hi, feel free to shoot me a message  ✉ 2jeong.hi@gmail.com</p>
 
 <h2> 📣 Profess effect </h2>
 <ul class="skill-list">
@@ -18,10 +18,10 @@ layout: page
 </ul>
 
 <h2> 💻 Skills</h2>
-![skill.image](/assets/images/skill_image.png)
-<p> R 사용에 친숙한 편이며, 데이터 과학을 위해 파이썬을 공부중입니다 </p>
+<p> R 사용에 친숙한 편이며, 데이터 과학을 위해 python을 공부중입니다 </p>
+<p> tensorflow2 사용법도 공부중입니다 </p>
 
-<h2> 🎤‍ Presentation</h2>
+<h2> 🎤‍ 발표 </h2>
 <ul class="skill-list">
 	<li> Application of regularization method to the nonstationary GEV distribution. 통계학회 추계학술논문발표회,2019.11
 	<a href = '/assets/labworks/regularization_GEV.pdf'> 발표자료 </a>  
@@ -33,13 +33,7 @@ layout: page
 	<li> SG 대학원생 논문발표상 3등, Application of regularization method to the nonstationary GEV distribution. 통계학회,2019.11 <a href = '/assets/labworks/abstract_regularization_GEV.pdf'> 초록 </a></li>
 </ul>
 
-<h2> 🎓 Education</h2>
-<ul class="skill-list">
-	<li> 서울시립대학교 통계학 석사과정, 2018.3~ </li>
-	<li> 동국대학교 통계학 전공 (경제학 복수전공), 2014.3~2018.2 </li>
-</ul>
-
-<h2> 📁 Other Resources </h2>
+<h2> 📁 작성 문서 </h2>
 <ul class="skill-list">
   <li> 12/13/2018, 시내버스 음료반입 금지에 따른 쓰레기통 위치 선정 <a href = '/assets/labworks/NDoB_최종.pdf'> 발표자료 </a>   <a href = 'https://github.com/12jeong/No-drinks-on-the-bus/blob/master/README.md'> 깃허브 </a> </li>
 
