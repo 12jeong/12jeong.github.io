@@ -6,7 +6,7 @@ layout: page
 # 소개
 
 <p>반갑습니다! 열심히 배워가는 중입니다 </p>
-<p>If you want something to be built or just to say hi, feel free to shoot me a message  ✉ 2jeong.hi@gmail.com</p>
+<p>If you want something to be built or just to say hi, feel free to shoot me a message  ✉ haniijeong827@gmail.com</p>
 
 <h2> 📣 Profess effect </h2>
 <ul class="skill-list">
