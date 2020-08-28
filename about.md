@@ -12,11 +12,15 @@ layout: page
 <ul class="skill-list">
 	<li> 내공이 부족한 관계로 포스팅 계획이 없습니다. 
 	</li>
-	<li> 파이썬 라이브러리 사용에 익숙해지고자 합니다.	<a herf ='https://github.com/12jeong/Machine-Learning-with-Python-Practice'> 깃허브1 </a> <a href ='https://github.com/12jeong/Kaggle-beginner'> 깃허브2 </a>
+	<li> 파이썬 라이브러리 사용에 익숙해지고자 합니다.	
+		<a href ='https://github.com/12jeong/Machine-Learning-with-Python-Practice'> 깃허브1 </a>
+		<a href ='https://github.com/12jeong/Kaggle-beginner'> 깃허브2 </a>
 	</li>
-	<li> 실무를 위한 SQL 활용법을 공부중입니다. 함께 하실래요? <a herf ='https://www.dataq.or.kr/www/sub/a_03.do'> 자격증(9/5 화이팅!) </a> <a herf ='https://www.hanbit.co.kr/store/books/look.php?p_code=B8585882565'> 자습교재  </a>
+	<li> 실무를 위한 SQL 활용법을 공부중입니다. 함께 하실래요? 
+		<a href ='https://www.dataq.or.kr/www/sub/a_03.do'> 자격증(9/5 화이팅!) </a> 
+		<a href ='https://www.hanbit.co.kr/store/books/look.php?p_code=B8585882565'> 자습교재  </a>
 	</li>
-	<li> 재밌어요 <a herf ='http://www.howl.or.kr/?xn_content=8467'>선형대수 </a>
+	<li> 재밌어요 <a href ='http://www.howl.or.kr/?xn_content=8467'> 선형대수 </a>
 	</li>
 </ul>
 
