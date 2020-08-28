@@ -10,10 +10,17 @@ layout: page
 
 <h2> 📣 Profess effect </h2>
 <ul class="skill-list">
-	<li> 홈페이지를 지킬테마로 바꾸었습니다. blog, projects 카테고리에 꾸준히 뭔가를 기록해볼까 합니다. 현재는 적절한 소재가 없어서 방치중...
+	<li> 내공이 부족한 관계로 포스팅 계획이 없습니다. 
 	</li>
-	<li> 본격적으로 파이썬 툴에 익숙해지고자 합니다. 과거 캐글 경진대회에서 사용된 입상자의 코드를 참고하며 실행해볼 예정!  
-	 <a href ='https://github.com/12jeong/Kaggle-beginner'> 깃허브 </a>
+	<li> 파이썬 라이브러리 사용에 익숙해지고자 합니다. 
+		<a herf = 'https://github.com/12jeong/Machine-Learning-with-Python-Practice'> 깃허브1 </a> 
+	 	<a href ='https://github.com/12jeong/Kaggle-beginner'> 깃허브2 </a>
+	</li>
+	<li> 실무를 위한 SQL 활용법을 공부중입니다. 함께 하실래요? 
+		<a herf = 'https://www.dataq.or.kr/www/sub/a_03.do'> 자격증(9/5 화이팅!) </a> 
+		<a herf = 'https://www.hanbit.co.kr/store/books/look.php?p_code=B8585882565'> 자습교재 </a>
+	</li>
+	<li> 선형대수 재밌어요 <a herf = 'http://www.howl.or.kr/?xn_content=8467'> 강의 </a>
 	</li>
 </ul>
 
