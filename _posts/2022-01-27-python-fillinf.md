@@ -1,12 +1,12 @@
 ---
 title: "np.nan, np.inf, -np.inf 대체/삭제 등 처리"
 layout: post
-date: 2020-02-10
+date: 2022-01-27
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - Python
-- visualization
+- datahandling
 category: blog
 author: 12#
 description:
