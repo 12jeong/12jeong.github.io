@@ -632,7 +632,7 @@ print(np.isposinf(1), np.isposinf(np.inf), np.isposinf(-np.inf),  np.isposinf(np
 
     False True False False
     
-
+ 
 
 ```python
 print(np.isneginf(1), np.isneginf(np.inf), np.isneginf(-np.inf), np.isneginf(np.nan))
